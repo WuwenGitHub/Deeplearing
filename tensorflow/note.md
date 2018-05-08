@@ -16,8 +16,9 @@
        "image index"/  数据集中图片编号  
        "pixel index"/    图片中像素点个数(0~图片像素上限)
   * 数据集对象  
-        <div align="center"> <img src="../image//MNIST数据集.png" width="500"/> </div><br>  
         <div align="center"> <table>
  <tr><th width="500"><b>数据集</b></th><th width="500"><b>目的</b></th></tr>
  <tr><td>data_sets.train</td><td>55000 组 图片和标签, 用于训练。</td></tr>
+ <tr><td>data_sets.validation</td><td>5000 组 图片和标签, 用于迭代验证训练的准确性。</td></tr>
+ <tr><td>data_sets.test</td><td>10000 组 图片和标签, 用于最终测试训练的准确性。</td></tr>
                              </table></div><br>
