@@ -7,7 +7,7 @@
       <tr><td>tf.types.float32</td><td>tf.float32</td></tr>
       <tr><td>tf.pact()</td><td>tf.stact()</td></tr>
     </table>
-  </div></br>
+  </div></br>  
   
 # MNIST
   * input\_data.py  
