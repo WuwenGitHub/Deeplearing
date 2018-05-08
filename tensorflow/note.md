@@ -29,5 +29,5 @@
             <tr><td>data_sets.test</td><td>10000 组 图片和标签, 用于最终测试训练的准确性。</td></tr>
           </table>
         </div><br>  
-        
-  * MNIST入门
+        
+# MNIST入门
