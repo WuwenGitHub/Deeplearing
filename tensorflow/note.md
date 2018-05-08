@@ -1,8 +1,4 @@
 # Tensorflow函数变化
-  * tf.sub() --> tf.subtract()
-  * tf.mul() --> tf.multiply()
-  * tf.types.float32 --> 为tf.float32
-  * tf.pact() --> tf.stact()  
   <div align="center"><table>
  <tr><th width="500"><b>旧</b></th><th width="500"><b>新</b></th></tr>
  <tr><td>tf.sub()</td><td>tf.subtract()</td></tr>
