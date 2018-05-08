@@ -29,7 +29,7 @@
             <tr><td>data_sets.test</td><td>10000 组 图片和标签, 用于最终测试训练的准确性。</td></tr>
           </table>
         </div><br>
-  * MNIST数据集使用
+  * MNIST入门  
     <pre><code>from tensorflow.examples.tutorials.mnist import input_data
     mnist = input_data.read_data_sets("MNIST_data/", one_hot=True)
     
