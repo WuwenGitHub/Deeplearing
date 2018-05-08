@@ -8,6 +8,7 @@
       <tr><td>tf.pact()</td><td>tf.stact()</td></tr>
     </table>
   </div></br>
+  
 # MNIST
   * input\_data.py  
        下载用于训练和测试的MNIST数据集的源码  
