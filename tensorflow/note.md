@@ -17,4 +17,4 @@
        "pixel index"/    图片中像素点个数(0~图片像素上限)
   * 数据集对象  
         <div align="center"> <img src="../image//MNIST数据集.png" width="500"/> </div><br>
-        <div align="center"> <table><tr><th>数据集</th><th>目的</th></tr></table></div><br>
+        <div align="center"> <table width="500"><tr><th>数据集</th><th>目的</th></tr></table></div><br>
