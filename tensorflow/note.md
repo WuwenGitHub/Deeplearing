@@ -3,7 +3,7 @@
   * tf.mul() --> tf.multiply()
   * tf.types.float32 --> 为tf.float32
   * tf.pact() --> tf.stact()  
-  <div align="center"><table><tr><th width="500"><b>旧</b></th width="500"><th><b>新</b></th></tr></table></div>
+  <div align="center"><table><tr><th width="500"><b>旧</b></th><th width="500"><b>新</b></th></tr></table></div>
 
 # MNIST
   * input\_data.py  
