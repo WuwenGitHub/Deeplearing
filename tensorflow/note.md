@@ -30,4 +30,13 @@
           </table>
         </div><br>  
         
-# MNIST入门
+# MNIST机器学习入门
+   1. 导入数据集  
+      *注: Anaconda中input_data.py位于tensorflow.examples.tutorials.mnist文件夹下  
+      60000行的训练数据集(mnist.train)
+         * 训练数据集的图片 mnist.train.images  
+             形状为[60000,784]的张量
+             第一维  图片索引
+             第二维  图片像素点索引
+             张量中元素  某张图片里的每个像素的强度值,0或1
+         * 训练数据集的标签 mnist.train.labels
