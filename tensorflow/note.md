@@ -1,4 +1,4 @@
-# Tensorflow函数变化
+# Tensorflow函数变化  
   <div align="center">
     <table>
       <tr><th width="500"><b>旧</b></th><th width="500"><b>新</b></th></tr>
@@ -8,7 +8,6 @@
       <tr><td>tf.pact()</td><td>tf.stact()</td></tr>
     </table>
   </div></br>
-
 # MNIST
   * input\_data.py  
        下载用于训练和测试的MNIST数据集的源码  
