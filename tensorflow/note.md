@@ -20,8 +20,7 @@
        形成2维的tensor[image index, pixel index]  
        "image index"/  数据集中图片编号  
        "pixel index"/    图片中像素点个数(0~图片像素上限)
-  * 数据集对象  
-  
+  * 数据集对象
   * MNIST入门  
     <pre><code>from tensorflow.examples.tutorials.mnist import input_data
     mnist = input_data.read_data_sets("MNIST_data/", one_hot=True)
