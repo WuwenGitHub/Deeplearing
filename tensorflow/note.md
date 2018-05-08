@@ -18,6 +18,6 @@
   * 数据集对象  
         <div align="center"> <img src="../image//MNIST数据集.png" width="500"/> </div><br>  
         <div align="center"> <table>
- <tr><th width="500"><em>数据集</em></th><th width="500"><em>目的</em></th></tr>
+ <tr><th width="500"><b>数据集</b></th><th width="500"><b>目的</b></th></tr>
  <tr><td>data_sets.train</td><td>55000 组 图片和标签, 用于训练。</td></tr>
                              </table></div><br>
