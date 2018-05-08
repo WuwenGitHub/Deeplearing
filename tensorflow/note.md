@@ -32,8 +32,8 @@
         
 # MNIST机器学习入门
    1. 导入数据集  
-      *注: Anaconda中input_data.py位于tensorflow.examples.tutorials.mnist文件夹下  
-      60000行的训练数据集(mnist.train)
+      *注: Anaconda中input_data.py位于tensorflow.examples.tutorials.mnist文件夹下  
+      60000行的训练数据集(mnist.train)  
          * 训练数据集的图片 mnist.train.images  
              形状为[60000,784]的张量
              第一维  图片索引
