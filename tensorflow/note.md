@@ -65,6 +65,7 @@
    1. 导入数据集<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>注：</b>Anaconda中input_data.py位于tensorflow\.examples\.tutorials\.mnist文件夹下
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ol>
+ <p>MNIST数据单元组成:一张包含手写数字的图片xs和一个对应的标签ys</p>
 <li>60000行的训练数据集(mnist.train)
    <ol>
        <li>训练数据集的图片 mnist.train.images
