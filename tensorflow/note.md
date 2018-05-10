@@ -92,7 +92,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 可用作给不同的对象分配概率
 <ol>
   <li>对图片像素进行加权求和<br>
-    对于给定的输入图片x代表是数字i的证据表示为:<br><image src="../image/图片像素值进行加权求和.png"/></li>
+    对于给定的输入图片x代表是数字i的证据表示为:<br><image src="../image/mnist1.png"/></li>
   <li>使用softmax函数转换成概率</li>
 </ol>
 
