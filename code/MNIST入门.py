@@ -49,7 +49,13 @@ for i in range(1000):
     #1.减少计算开销 2.最大化地学习到数据集的总体特性
     batch_xs,batch_ys = mnist.train.next_batch(100)
     sess.run(train_step, feed_dict={x:batch_xs,y_:batch_ys})
-    
+
+#评估模型
+#类别标签--最大值1所在索引位置
+#tf.argmax(y,1)  返回的是模型对于任一输入x预测到的标签值
+#tf.argmax(y_,1) 正确的标签
+#tf.equal 检测我们的预测是否真实标签匹配(索引位置相同)
 correct_prediction = tf.equal(tf.argmax(y,1), tf.argmax(y_,1))
 accuracy = tf.reduce_mean(tf.cast(correct_prediction, "float"))
+#计算所学习到的模型在测试数据集上面的正确率
 print(sess.run(accuracy, feed_dict={x: mnist.test.images, y_: mnist.test.labels}))
