@@ -2,33 +2,25 @@
 
 #1. 导入数据集
 #注: Anaconda中input_data.py位于tensorflow.examples.tutorials.mnist文件夹下
-#60000行的训练数据集(mnist.train)
-#Ⅰ训练数据集的图片 mnist.train.images
-#        形状为[60000,784]的张量
-#        第一维  图片索引
-#        第二维  图片像素点索引
-#        张量中元素  某张图片里的每个像素的强度值,0或1
-#Ⅱ 训练数据集的标签 mnist.train.labels
-#          [60000,10]的数字矩阵
-#         介于0到9的数字   描述给定图片里表示的数字
-#         标签数据one-hot vectors  除某一维数字为1外，其余全为0
-#10000行的测试数据集(mnist.test)
-#MNIST数据单元构成: 一张包含手写数字的图片(28x28像素)xs和一个对应的标签ys
-#①将图片像素数组展开为一个向量(28x28=784维向量空间)
-#②
 from tensorflow.examples.tutorials.mnist import input_data
 mnist = input_data.read_data_sets("MNIST_data/", one_hot=True)
+
+import tensorflow as tf
 
 #softmax回归
 #第一步  对图像像素值进行加权求和
 #         不属于该类  权值为负
 #         加入偏置量(bias)  消除无关干扰量
-import tensorflow as tf
-
+# x--图片i  W--权重  b--偏置量(bias)
+# x 非特定值 可输入
 x = tf.placeholder("float",[None, 784])
+#使用全为0的张量来初始化W,b 可输入
+#需要学习,初始值可以随意设置
 W = tf.Variable(tf.zeros([784,10]))
 b = tf.Variable(tf.zeros([10]))
 
+#第二步  使用softmax函数将其转换成概率y
+#softmax模型实现
 y = tf.nn.softmax(tf.matmul(x,W) + b)
 
 y_ =  tf.placeholder("float",[None,10])
