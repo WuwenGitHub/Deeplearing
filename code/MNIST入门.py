@@ -21,8 +21,10 @@ b = tf.Variable(tf.zeros([10]))
 
 #第二步  使用softmax函数将其转换成概率y
 #softmax模型实现
+#预测的概率分布
 y = tf.nn.softmax(tf.matmul(x,W) + b)
 
+#实际分布(one-hot vector)
 y_ =  tf.placeholder("float",[None,10])
 
 #训练模型
