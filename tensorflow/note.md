@@ -98,6 +98,9 @@
    三、 训练模型<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ol>
  <li>定义评估指标(成本/损失)--尽量最小化<br>成本函数"交叉熵"(cross-entropy)<br><image src="../image/mnist10.png"/></li>
+ <li>训练模型<br>
+  反向传播算法(backpropagation algorithm)<br>&nbsp;&nbsp;有效地确定变量如何影响到想要最小化的那个成本值<br>
+ 梯度下降算法(gradient descent algorithm)<br>&nbsp;&nbsp;一个简单学习过程</li>
 </ol>
 
 
