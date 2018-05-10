@@ -102,5 +102,11 @@
   反向传播算法(backpropagation algorithm)<br>&nbsp;&nbsp;有效地确定变量如何影响到想要最小化的那个成本值<br>
  梯度下降算法(gradient descent algorithm)<br>&nbsp;&nbsp;一个简单学习过程</li>
 </ol>
+   四、 评估模型<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<ol>
+ <li>获取某个tensor对象在某一维的最大值</li>
+ <li>检测预测是否与真实标签匹配</li>
+ <li>计算所学模型在测试数据集上的正确性</li>
+</ol>
 
 
