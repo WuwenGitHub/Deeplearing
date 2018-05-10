@@ -24,16 +24,22 @@ b = tf.Variable(tf.zeros([10]))
 y = tf.nn.softmax(tf.matmul(x,W) + b)
 
 y_ =  tf.placeholder("float",[None,10])
-#训练模型 成本函数--交叉熵
+
+#训练模型
+#成本函数--交叉熵
 cross_entropy = -tf.reduce_sum(y_ * tf.log(y))
 
+#训练 反向传播算法
+#使用梯度下降算法最小化交叉熵  0.01学习速率
 train_step = tf.train.GradientDescentOptimizer(0.01).minimize(cross_entropy)
 
+#初始化变量
 init = tf.initialize_all_variables()
 
 sess = tf.Session()
 sess.run(init)
 
+#开始训练
 for i in range(1000):
     batch_xs,batch_ys = mnist.train.next_batch(100)
     sess.run(train_step, feed_dict={x:batch_xs,y_:batch_ys})
