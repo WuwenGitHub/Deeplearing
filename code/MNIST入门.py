@@ -43,6 +43,10 @@ sess.run(init)
 
 #开始训练
 for i in range(1000):
+    #随机训练(stochastic training)/随机梯度下降训练
+    #随机抓取数据中的100个批处理数据点
+    #替换之前的占位符来运行train_step
+    #1.减少计算开销 2.最大化地学习到数据集的总体特性
     batch_xs,batch_ys = mnist.train.next_batch(100)
     sess.run(train_step, feed_dict={x:batch_xs,y_:batch_ys})
     
