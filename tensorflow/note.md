@@ -95,5 +95,6 @@
     对于给定的输入图片x代表是数字i的证据表示为:<br><image src="../image/mnist1.png"/></li>
   <li>使用softmax函数转换成概率<br><image src="../image/mnist4.png" /></li>
 </ol>
+   三、 训练模型<br>
 
 
