@@ -97,7 +97,7 @@
 </ol>
    三、 训练模型<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ol>
- <li>定义评估指标(成本/损失)--尽量最小化<br>成本函数"交叉熵"(cross-entropy)<br><image src=</li>
+ <li>定义评估指标(成本/损失)--尽量最小化<br>成本函数"交叉熵"(cross-entropy)<br><image src="../image/mnist10.png"/></li>
 </ol>
 
 
