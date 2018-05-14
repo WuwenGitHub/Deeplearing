@@ -5,6 +5,7 @@
   <li>更改<pre># The directory to use for notebooks.这决定了jupyter启动目录  
 c.NotebookApp.notebook_dir = '/path/to/your/notebooks'</pre></li>
 </ol>
+
 # Juypter notebook命令  
 <table>
   <tr><td align="center" width="500">%quickref</td><td align="center" width="500">显示 IPython 快速参考</td></tr>
@@ -24,6 +25,7 @@ c.NotebookApp.notebook_dir = '/path/to/your/notebooks'</pre></li>
   <tr><td align="center" width="500">%cd direcrory</td><td align="center" width="500">切换工作目录</td></tr>
   <tr><td align="center" width="500">%pwd</td><td align="center" width="500">返回当前工作目录（字符串形式）</td></tr>
   <tr><td align="center" width="500">%env</td><td align="center" width="500">返回当前系统变量（以字典形式）</td></tr>
-</table>  
+</table>
+
 # python安装第三方库  
   <code>pip install ..(例:pip install numpy)</code>
