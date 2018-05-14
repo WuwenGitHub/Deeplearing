@@ -1,11 +1,11 @@
-#更改Jupyter notebook的工作空间(主目录)
+# 更改Jupyter notebook的工作空间(主目录)
 <br><ol>
   <li>Jupyter的工作空间在其配置文件ipython_notebook_config.py中</li>
   <li>查找配置文件命令<br><code>jupyter notebook --generate-config</code></li>
   <li>更改<pre># The directory to use for notebooks.这决定了jupyter启动目录  
 c.NotebookApp.notebook_dir = '/path/to/your/notebooks'</pre></li>
 </ol>
-#Juypter notebook命令  
+# Juypter notebook命令  
 <table>
   <tr><td align="center" width="500">%quickref</td><td align="center" width="500">显示 IPython 快速参考</td></tr>
   <tr><td align="center" width="500">%magic</td><td align="center" width="500">	显示所有魔术命令的详细文档</td></tr>
@@ -25,3 +25,5 @@ c.NotebookApp.notebook_dir = '/path/to/your/notebooks'</pre></li>
   <tr><td align="center" width="500">%pwd</td><td align="center" width="500">返回当前工作目录（字符串形式）</td></tr>
   <tr><td align="center" width="500">%env</td><td align="center" width="500">返回当前系统变量（以字典形式）</td></tr>
 </table>
+# python安装第三方库
+  pip install ..(例:pip install numpy)
