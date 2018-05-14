@@ -25,5 +25,5 @@ c.NotebookApp.notebook_dir = '/path/to/your/notebooks'</pre></li>
   <tr><td align="center" width="500">%pwd</td><td align="center" width="500">返回当前工作目录（字符串形式）</td></tr>
   <tr><td align="center" width="500">%env</td><td align="center" width="500">返回当前系统变量（以字典形式）</td></tr>
 </table>
-# python安装第三方库
+# python安装第三方库  
   pip install ..(例:pip install numpy)
